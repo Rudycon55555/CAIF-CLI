@@ -9,4 +9,4 @@ It contains learned weights, a `predict()` function, and optional XP/TC connecti
 
 ### 📦 Running the Artifact
 
-After training and export, you’ll have a Python (PY) file.
+After training and export, you’ll have a Python (PY) file to use!
