@@ -1,0 +1,14 @@
+# Example.caif
+SET PARAMETER input_dim = 2
+SET PARAMETER output_dim = 1
+SET PARAMETER hidden_neurons = 8
+SET PARAMETER learning_rate = 0.05
+
+IMPORT DATA "train_pairs.txt"
+
+START MODEL "regressor"
+TRAIN FOR 20
+
+CONNECT TO XP "127.0.0.1:9000" as robot_arm
+
+EXPORT MODEL as "MyTrainedModel"
