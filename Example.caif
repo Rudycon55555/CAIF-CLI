@@ -4,7 +4,7 @@ SET PARAMETER output_dim = 1
 SET PARAMETER hidden_neurons = 8
 SET PARAMETER learning_rate = 0.05
 
-IMPORT DATA "train_pairs.txt"
+IMPORT DATA "Example.jsonl"
 
 START MODEL "regressor"
 TRAIN FOR 20
