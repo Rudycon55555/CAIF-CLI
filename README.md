@@ -9,7 +9,7 @@ It lets you **code, train, and export working AI models** using simple `.caif` s
 - **Dependency‑free**: Uses only Python’s standard library (`sys`, `os`, `socket`, `math`, `random`, `urllib`).
 - **Command‑driven workflow**: Write `.caif` scripts with human‑readable commands like `SET PARAMETER`, `IMPORT DATA`, `TRAIN FOR`, `EXPORT MODEL`.
 - **Real training loop**: Implements a single‑hidden‑layer neural network with forward/backward passes in pure Python.
-- **Dataset parsing**: Reads numeric input/output pairs from text files or URLs.
+- **Dataset parsing**: Reads numeric input/output pairs from JSONL files or URLs.
 - **Export models**: Produces standalone `.py` files containing learned weights and a working `predict()` function.
 - **Tool/XP connections**: Supports `CONNECT TO XP` (network sockets) and `CONNECT TO TC` (tool calls) for integration.
 
