@@ -24,7 +24,7 @@ git clone https://github.com/yourusername/CAIF-CLI.git
 cd CAIF-CLI
 python CAIF-CLI.py [replace these brackets and this text inside with the filepath (relative or absolute) to a CAIF File, which ends in .caif]
 ```
-Then to use the model you just made, navigate to the directory of it, then run
+Then to use the model you just made, navigate to the directory of it (~/CAIF-CLI), then run
 
 ```bash
 python [replace these brackets and this text inside with the filepath (relative or absolute) to the exported Python File]
